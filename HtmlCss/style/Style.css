@@ -3,29 +3,58 @@ body{
     margin-left: 0;
     padding: 0; 
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+   
 }
+
+h1{
+  text-shadow: 2px 2px 4px black;
+
+}
+
+
 .driehoek {
 position: absolute;
-border-top:solid 100px #b9dcff;
-border-right:solid 100px transparent;
-border-bottom:solid 100px transparent;
-border-left:solid 100px transparent;
+border-top:solid 200px #b9dcff;
+border-right:solid 200px transparent;
+border-bottom:solid 200px transparent;
+border-left:solid 200px transparent;
 margin-top: 170px;
-margin-left: 850px;
-z-index: 1;
+margin-left: 750px;
+z-index: 4;
+
+}
+
+.login{
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+margin-top: 30px;
+}
+
+.col{
+  width: 900px;
+  margin: 2%;
+  border:2px solid black ;
+  align-self: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(3, 3, 189);
 
 }
 
 .eventBox{
-    z-index: 0;
-
-    background-color: #e6002d;
-    opacity: 85%;
-    width: 1400px;
+    z-index: 3;
+    background-image: linear-gradient(rgb(37, 149, 240, 0.7), rgb(216, 37, 37, 0.7));
+    width: 2000px;
     height: 900PX;
     position: relative;
     margin-top: -230px;
+    text-align: center;
 }
+
+
 
 
 ul {
@@ -33,7 +62,7 @@ ul {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color: #e3f2fd;
+    background-color: white;
     text-decoration: none;
   }
   
@@ -62,3 +91,10 @@ ul {
     background-color: #b9dcff;
     height: 400px;
 }   
+.background2{
+
+  position:absolute;
+  margin-top: -670px;
+  z-index: 1;
+  width: 1920px;
+}
