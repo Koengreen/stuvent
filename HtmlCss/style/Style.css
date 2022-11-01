@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    margin-left: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.driehoek {
+position: absolute;
+border-top:solid 100px #b9dcff;
+border-right:solid 100px transparent;
+border-bottom:solid 100px transparent;
+border-left:solid 100px transparent;
+margin-top: 170px;
+margin-left: 850px;
+z-index: 1;
+
+}
+
+.eventBox{
+    z-index: 0;
+
+    background-color: #e6002d;
+    opacity: 85%;
+    width: 1400px;
+    height: 900PX;
+    position: relative;
+    margin-top: -230px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #e3f2fd;
+    text-decoration: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(172, 172, 172);
+  }
+  
+  a.active:hover {
+    background-color: rgb(172, 172, 172);
+  }
+
+.background1{
+
+    background-color: #b9dcff;
+    height: 400px;
+}   
