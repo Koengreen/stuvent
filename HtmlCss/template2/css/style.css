@@ -6,7 +6,7 @@
 }  
 
 body{
-    background: linear-gradient(to right, #F40009 50%, #021130 50%);
+    background: linear-gradient(to right, #dd0100 34%, #fac901 33%, #225095 33%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -39,14 +39,13 @@ ul {
   }
   
   li a:hover {
-    background-color: rgb(9, 41, 112);
+    background-color: rgb(9, 41, 112,);
     color: white;
   }
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    background-color: #2196F3;
+    background-color: #fac901;
     padding: 10px;
     margin-left:200px;
     margin-right:200px;
@@ -54,8 +53,18 @@ ul {
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #fac901; 
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  border: 0;
+}
+.Login{
+  margin-left: -70px;
+}
+.card{
+  margin: 30px;
+  border-style: inset;
+  border-radius: 20px;
+
 }
