@@ -1,19 +1,37 @@
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url(//fonts/FilsonPro-Bold.woff2) format("woff2");
+}
+
+hr{
+  color: black;
+}
+
+
+
 .mySlides {
     display:none;
     position: static;
     max-height: 400px;
     object-fit: cover;
 }  
+.hyperlink{
+  color: black;
+}
 
 body{
-    background: linear-gradient(to right, #dd0100 50%, #225095 50%);
+    background: linear-gradient(to right, #af0101 50%, #183a6d 50%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: "roboto";
+    color: black;
 }
 ul{
-  margin-left: 35%;
+  margin-left: 2vw;
 
 }
 li{
@@ -25,38 +43,66 @@ li{
 }
 #grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(22vw, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(17vw, 1fr));
+  grid-gap: 2vw;
   background-color: #fac901;
   width: 80vw;
   justify-content: center;
   align-self: center;
-  margin-left: 7vw;
-  margin-right: 10vw;
+  margin-left:9vw;
+  margin-right: 9vw;
+  border: 3vw solid #fac901;
 }
 
 #grid>div {
   font-size: 30px;
   padding: .5em;
   color: #ffffff;
-  background: #1c87c9;
+  background: #b9dcff;
   text-align: center;
+  box-shadow: 2px 2px 2px black;
+  display: flex;
+  justify-content: center;
+  vertical-align: text-bottom;
   
 }
+
+#grid>div:hover{
+  transform: scale(1.08);
+}
+
+
+
 .card-body{
   block-size: max-content;
+  
 }
+h1{
+  color: black;
+  font-size: xx-large;
+}
+h3{
+  font-size: large;
+  color:black
+}
+
+h5{
+  color: rgb(122, 121, 121);
+}
+
 
 a{
   color: white;
   text-decoration: none;
 }
 
+
 .Login{
   margin-left: -70px;
 }
 p{
   font-size: large;
+  color: black;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
