@@ -1,14 +1,11 @@
 @font-face {
-  font-family: 'Inter var';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url(//fonts/FilsonPro-Bold.woff2) format("woff2");
+  font-family: BoldMondriaan;
+  src: url(/fonts/FilsonPro-Bold.woff2);
+
 }
 
 hr{
-  color: black;
+  color: #1a191a;
 }
 
 
@@ -20,15 +17,19 @@ hr{
     object-fit: cover;
 }  
 .hyperlink{
-  color: black;
+  color: #1a191a;
 }
-
+.hyperlink:hover{
+  text-decoration: underline;
+  color: #1a191a ;
+}
 body{
-    background: linear-gradient(to right, #af0101 50%, #183a6d 50%);
+    background: linear-gradient(to right, #ac1424 50%, #2d3584 50%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: black;
+    color: #1a191a;
+    font-family: BoldMondriaan;
 }
 ul{
   margin-left: 2vw;
@@ -45,13 +46,13 @@ li{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(17vw, 1fr));
   grid-gap: 2vw;
-  background-color: #fac901;
+  background-color: #ecb352;
   width: 80vw;
   justify-content: center;
   align-self: center;
   margin-left:9vw;
   margin-right: 9vw;
-  border: 3vw solid #fac901;
+  border: 3vw solid #ecb352;
 }
 
 #grid>div {
@@ -60,15 +61,11 @@ li{
   color: #ffffff;
   background: #b9dcff;
   text-align: center;
-  box-shadow: 2px 2px 2px black;
-  display: flex;
-  justify-content: center;
-  vertical-align: text-bottom;
-  
+  box-shadow: 2px 2px 2px #1a191a;
 }
 
 #grid>div:hover{
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 
 
@@ -78,16 +75,16 @@ li{
   
 }
 h1{
-  color: black;
+  color: #1a191a;
   font-size: xx-large;
 }
 h3{
   font-size: large;
-  color:black
+  color:#1a191a
 }
 
 h5{
-  color: rgb(122, 121, 121);
+  color: #8c8c91;
 }
 
 
@@ -96,13 +93,14 @@ a{
   text-decoration: none;
 }
 
+::content
 
 .Login{
   margin-left: -70px;
 }
 p{
   font-size: large;
-  color: black;
+  color: #1a191a;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
