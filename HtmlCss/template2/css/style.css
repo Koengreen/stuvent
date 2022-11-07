@@ -7,6 +7,14 @@
 hr{
   color: #1a191a;
 }
+.login-forum{
+  min-height: 10vh;
+}
+.active{
+  text-decoration: underline;
+  color: rgb(33, 37, 41);
+
+}
 
 
 
@@ -18,6 +26,7 @@ hr{
 }  
 .hyperlink{
   color: #1a191a;
+  font-size: small;
 }
 .hyperlink:hover{
   text-decoration: underline;
@@ -55,6 +64,7 @@ li{
   border: 3vw solid #ecb352;
 }
 
+
 #grid>div {
   font-size: 30px;
   padding: .5em;
@@ -63,12 +73,25 @@ li{
   text-align: center;
   box-shadow: 2px 2px 2px #1a191a;
 }
+.form-group{
+  background-color: #ecb352;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center
+}
 
 #grid>div:hover{
   transform: scale(1.1);
 }
 
+a:hover{
+  color: white
+}
 
+.login{
+  margin: 7vh;
+  
+}
 
 .card-body{
   block-size: max-content;
@@ -86,8 +109,20 @@ h3{
 h5{
   color: #8c8c91;
 }
+.login-label{
+  font-size: larger;
+}
+.about{
+  
+}
 
+.about-text{
+  background-color: #ecb352;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center
 
+}
 a{
   color: white;
   text-decoration: none;
@@ -116,3 +151,19 @@ p{
   #grid { grid-template-columns: repeat(2, 1fr);}
 
 }
+@media(max-width: 800px) {
+  .image-border{
+    height: 30vh;
+  }
+  .form-group{
+    background-color: #ecb352;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    text-align: center;
+    margin-bottom: 0vw;
+  }
+  .btn{
+    margin: 10%;
+  }
+}
+  
