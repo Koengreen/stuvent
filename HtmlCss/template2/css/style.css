@@ -98,6 +98,10 @@ a{
 .Login{
   margin-left: -70px;
 }
+.image-border{
+  height: 20vh;
+  background: #b9dcff;
+}
 p{
   font-size: large;
   color: #1a191a;
