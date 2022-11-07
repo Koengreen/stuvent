@@ -16,7 +16,9 @@ hr{
 
 }
 
-
+.carrousel{
+  display: none;
+}
 
 .mySlides {
     display:none;
@@ -73,10 +75,14 @@ li{
   text-align: center;
   box-shadow: 2px 2px 2px #1a191a;
 }
+.event-img{
+  width: 80vh;
+  height: auto;
+}
 .form-group{
   background-color: #ecb352;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
   text-align: center
 }
 
@@ -112,14 +118,17 @@ h5{
 .login-label{
   font-size: larger;
 }
-.about{
-  
+.enroll-button{
+  color: black;
+  padding: 5px;
+  border: 3px solid black;
 }
+
 
 .about-text{
   background-color: #ecb352;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   text-align: center
 
 }
