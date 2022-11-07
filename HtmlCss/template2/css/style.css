@@ -20,6 +20,7 @@ hr{
   display: none;
 }
 
+
 .mySlides {
     display:none;
     position: static;
@@ -53,6 +54,13 @@ li{
   margin-left: 30px;
   margin-right: 30px;
 }
+label{
+  text-decoration: underline;
+}
+
+.card-img-top{
+  box-shadow: 4px 4px 2px black;
+}
 #grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(17vw, 1fr));
@@ -64,6 +72,10 @@ li{
   margin-left:9vw;
   margin-right: 9vw;
   border: 3vw solid #ecb352;
+}
+
+.navbar-dark{
+  box-shadow: 4px 4px 4px ;
 }
 
 
@@ -78,6 +90,7 @@ li{
 .event-img{
   width: 80vh;
   height: auto;
+  box-shadow: 8px 12px 8px rgb(82, 80, 80);
 }
 .form-group{
   background-color: #ecb352;
@@ -88,6 +101,14 @@ li{
 
 #grid>div:hover{
   transform: scale(1.1);
+}
+
+.enroll-button{
+  box-shadow: 4px 2px px ;
+
+}
+.enroll-button:hover{
+  color: #ac1424;
 }
 
 a:hover{
@@ -129,7 +150,8 @@ h5{
   background-color: #ecb352;
   margin-left: 10vw;
   margin-right: 10vw;
-  text-align: center
+  text-align: center;
+  border: 2vw solid #ecb352;
 
 }
 a{
@@ -162,7 +184,7 @@ p{
 }
 @media(max-width: 800px) {
   .image-border{
-    height: 30vh;
+    height: 20vh;
   }
   .form-group{
     background-color: #ecb352;
